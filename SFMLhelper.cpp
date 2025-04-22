@@ -4,10 +4,10 @@
 SFMLhelper::SFMLhelper()
 {
     window.create(sf::VideoMode(800, 600), "Imdbb", sf::Style::Close);
-    font.loadFromFile("../fonts/times.ttf");
+    font.loadFromFile("../../fonts/times.ttf");
 
     sf::Image img;
-    img.loadFromFile("../images/movieclip.png");
+    img.loadFromFile("../../images/movieclip.png");
     window.setIcon(img.getSize().x, img.getSize().y, img.getPixelsPtr());
 
     buttons.resize(3);
@@ -25,7 +25,9 @@ SFMLhelper::SFMLhelper()
         string text;
         if (helper->getSort() == 0) text = "Actors";
         else text = "Movies";
+        cout << "starting" << endl;
         helper->addText(text, sf::Vector2f(675, 50), 20);
+        helper->compareAlgorithms();
     };
     auto sortMovie = [](SFMLhelper *helper)
     {
@@ -42,9 +44,7 @@ SFMLhelper::SFMLhelper()
     state = 2;
 
     addText("Heap Sort:", sf::Vector2f(400,150), 25);
-    addText("Time Taken:", sf::Vector2f(400,175), 20);
     addText("Merge Sort:", sf::Vector2f(400,300), 25);
-    addText("Time Taken:", sf::Vector2f(400,325), 20);
 
     state = 1;
 }
@@ -125,7 +125,6 @@ void SFMLhelper::update()
 void SFMLhelper::buttonPressed()
 {
     auto mp = sf::Mouse::getPosition(window);
-    auto tp = window.mapPixelToCoords(mp);
     for (auto button : buttons[state])
     {
         sf::Sprite sprite;
@@ -160,3 +159,44 @@ int SFMLhelper::getSort()
     return sort;
 }
 
+void SFMLhelper::compareAlgorithms()
+{
+    heapSort hs;
+    mergeSort ms;
+    vector<pair<string, string>> data(99999, {"test", "hi"});
+    vector<string> heap;
+    vector<string> merge;
+    if (sort == 0)
+    {
+        for (auto point : data)
+        {
+            heap.push_back(point.first);
+            merge.push_back(point.first);
+        }
+    } else
+    {
+        for (auto point : data)
+        {
+            heap.push_back(point.second);
+            merge.push_back(point.second);
+        }
+    }
+
+    cout << "doing sorting" << endl;
+
+
+    chrono::system_clock::time_point heapStart = chrono::system_clock::now();
+    hs.sort(heap);
+    chrono::system_clock::time_point heapEnd = chrono::system_clock::now();
+    float heapTime = chrono::duration_cast<chrono::milliseconds>(heapEnd - heapStart).count();
+    cout << heapTime << endl;
+    addText("Time Taken:" + to_string(heapTime), sf::Vector2f(400,175), 20);
+
+    chrono::system_clock::time_point mergeStart = chrono::system_clock::now();
+    ms.mergesort(merge);
+    chrono::system_clock::time_point mergeEnd = chrono::system_clock::now();
+    float mergeTime = chrono::duration_cast<chrono::milliseconds>(mergeEnd - mergeStart).count();
+    cout << mergeTime << endl;
+    addText("Time Taken:" + to_string(mergeTime), sf::Vector2f(400,325), 20);
+
+}

@@ -1,0 +1,1 @@
+To run our code the smfl libary is needed. Because of this we were having issues running the code in the GitHub code space. So, to run the code you have to download the main branch. Once downloaded, open it in an ide such as clion  and install the smfl library. The code should run as expected.

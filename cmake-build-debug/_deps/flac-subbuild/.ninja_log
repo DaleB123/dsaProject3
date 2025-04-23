@@ -1,0 +1,37 @@
+# ninja log v6
+3	115	7670600672717383	flac-populate-prefix/src/flac-populate-stamp/flac-populate-mkdir	afa8f5c19dea6d54
+3	115	7670600672717383	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-mkdir	afa8f5c19dea6d54
+116	3432	7670600705913291	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-download	c33b20b65e9a5a0
+3433	3634	7670600705992802	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-update	899b50dd2a9a8013
+3759	3826	7670600709865173	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure	c8091a5677b34363
+116	3432	7670600705913291	flac-populate-prefix/src/flac-populate-stamp/flac-populate-download	c33b20b65e9a5a0
+3433	3634	7670600705992802	flac-populate-prefix/src/flac-populate-stamp/flac-populate-update	899b50dd2a9a8013
+3634	3759	7670600709163138	flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch	890dd8c92f9a0d79
+3634	3759	7670600709163138	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch	890dd8c92f9a0d79
+3759	3826	7670600709865173	flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure	c8091a5677b34363
+3827	3903	7670600710615571	flac-populate-prefix/src/flac-populate-stamp/flac-populate-build	eb048c8b64976baf
+3827	3903	7670600710615571	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-build	eb048c8b64976baf
+3903	3987	7670600711438122	flac-populate-prefix/src/flac-populate-stamp/flac-populate-install	184ac79d70cefc9
+3903	3987	7670600711438122	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-install	184ac79d70cefc9
+3987	4072	7670600712291129	flac-populate-prefix/src/flac-populate-stamp/flac-populate-test	bd94f095aaff80a5
+3987	4072	7670600712291129	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-test	bd94f095aaff80a5
+4073	4183	7670600713425027	CMakeFiles/flac-populate-complete	c5c917327cae346e
+4073	4183	7670600713425027	flac-populate-prefix/src/flac-populate-stamp/flac-populate-done	c5c917327cae346e
+4073	4183	7670600713425027	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/flac-subbuild/CMakeFiles/flac-populate-complete	c5c917327cae346e
+4073	4183	7670600713425027	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-done	c5c917327cae346e
+11	169	7670604070080328	flac-populate-prefix/src/flac-populate-stamp/flac-populate-update	899b50dd2a9a8013
+11	169	7670604070080328	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-update	899b50dd2a9a8013
+169	229	7670604072205485	flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch	890dd8c92f9a0d79
+169	229	7670604072205485	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch	890dd8c92f9a0d79
+229	290	7670604072809751	flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure	c8091a5677b34363
+229	290	7670604072809751	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure	c8091a5677b34363
+290	352	7670604073424029	flac-populate-prefix/src/flac-populate-stamp/flac-populate-build	eb048c8b64976baf
+290	352	7670604073424029	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-build	eb048c8b64976baf
+352	411	7670604074020038	flac-populate-prefix/src/flac-populate-stamp/flac-populate-install	184ac79d70cefc9
+352	411	7670604074020038	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-install	184ac79d70cefc9
+412	474	7670604074646544	flac-populate-prefix/src/flac-populate-stamp/flac-populate-test	bd94f095aaff80a5
+412	474	7670604074646544	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-test	bd94f095aaff80a5
+475	558	7670604075479809	CMakeFiles/flac-populate-complete	c5c917327cae346e
+475	558	7670604075479809	flac-populate-prefix/src/flac-populate-stamp/flac-populate-done	c5c917327cae346e
+475	558	7670604075479809	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/flac-subbuild/CMakeFiles/flac-populate-complete	c5c917327cae346e
+475	558	7670604075479809	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-done	c5c917327cae346e

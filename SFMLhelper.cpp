@@ -1,5 +1,12 @@
 #include "SFMLhelper.h"
-#include <iostream>
+#include "heapSort.h"
+#include "mergeSort.h"
+#include <fstream>
+#include "Bridges.h"
+#include "DataSource.h"
+#include "data_src/MovieActorWikidata.h"
+
+using namespace bridges;
 
 SFMLhelper::SFMLhelper()
 {
@@ -13,7 +20,7 @@ SFMLhelper::SFMLhelper()
     buttons.resize(3);
     texts.resize(3);
 
-    addText("Input: [Dataset]", sf::Vector2f(150, 50), 30);
+    addText("Input: Wikidata Actors and Movies", sf::Vector2f(215, 50), 25);
     addText("Sort by:", sf::Vector2f(600, 50), 20);
 
 
@@ -25,7 +32,6 @@ SFMLhelper::SFMLhelper()
         string text;
         if (helper->getSort() == 0) text = "Actors";
         else text = "Movies";
-        cout << "starting" << endl;
         helper->addText(text, sf::Vector2f(675, 50), 20);
         helper->compareAlgorithms();
     };
@@ -38,8 +44,11 @@ SFMLhelper::SFMLhelper()
         helper->setSort(0);
     };
     addButton("Start", sf::Vector2f(325,250), 50, start);
+    addText("Start", sf::Vector2f(375,260), 40);
     addButton("Movies", sf::Vector2f(650,80),25, sortMovie);
+    addText("Movies", sf::Vector2f(675,80), 20);
     addButton("Actors", sf::Vector2f(650, 50), 25, sortActor);
+    addText("Actors", sf::Vector2f(675,50), 20);
 
     state = 2;
 
@@ -80,7 +89,7 @@ void SFMLhelper::addButton(string str, sf::Vector2f pos, int size, function<void
     border.setFillColor(sf::Color(255,0,0,40));
     border.setSize(sf::Vector2f(text.getGlobalBounds().width*1.2, text.getGlobalBounds().height*1.2));
 
-    text.setPosition(border.getPosition().x + border.getSize().x/2.f, border.getPosition().y);
+    text.setPosition(border.getPosition().x + border.getSize().x/2.f, border.getPosition().y+border.getSize().y/2.f);
     text.setOrigin(text.getLocalBounds().width/2, text.getLocalBounds().height/3);
 
     sf::RenderTexture renderTexture;
@@ -89,8 +98,7 @@ void SFMLhelper::addButton(string str, sf::Vector2f pos, int size, function<void
     renderTexture.display();
     renderTexture.draw(border);
     renderTexture.draw(text);
-    Button button(renderTexture.getTexture(), onClick, pos);
-    buttons[state].push_back(button);
+    buttons[state].push_back(Button(renderTexture.getTexture(), onClick, pos));
 }
 
 void SFMLhelper::update()
@@ -148,8 +156,11 @@ void SFMLhelper::setSort(int sort)
     if (this->sort != sort)
     {
         sf::Vector2f temp = buttons[state][1].pos;
+        sf::Vector2f temp2 = texts[state][1].getPosition();
         buttons[state][1].pos = buttons[state][2].pos;
         buttons[state][2].pos = temp;
+        texts[state][1].setPosition(texts[state][2].getPosition());
+        texts[state][2].setPosition(temp2);
         this->sort = sort;
     }
 }
@@ -163,40 +174,64 @@ void SFMLhelper::compareAlgorithms()
 {
     heapSort hs;
     mergeSort ms;
-    vector<pair<string, string>> data(99999, {"test", "hi"});
+    Bridges bridges(1, "dayrianfigueroa", "1543558140810");
+    DataSource ds (&bridges);
+    vector<bridges::MovieActorWikidata> data = ds.getWikidataActorMovie(2000,2001);
     vector<string> heap;
     vector<string> merge;
     if (sort == 0)
     {
         for (auto point : data)
         {
-            heap.push_back(point.first);
-            merge.push_back(point.first);
+            heap.push_back(point.getActorName());
+            merge.push_back(point.getActorName());
         }
     } else
     {
         for (auto point : data)
         {
-            heap.push_back(point.second);
-            merge.push_back(point.second);
+            heap.push_back(point.getMovieName());
+            merge.push_back(point.getMovieName());
         }
     }
 
-    cout << "doing sorting" << endl;
 
 
     chrono::system_clock::time_point heapStart = chrono::system_clock::now();
     hs.sort(heap);
     chrono::system_clock::time_point heapEnd = chrono::system_clock::now();
-    float heapTime = chrono::duration_cast<chrono::milliseconds>(heapEnd - heapStart).count();
-    cout << heapTime << endl;
-    addText("Time Taken:" + to_string(heapTime), sf::Vector2f(400,175), 20);
+    int heapTime = chrono::duration_cast<chrono::milliseconds>(heapEnd - heapStart).count();
+    addText("Time Taken: " + to_string(heapTime) + " ms", sf::Vector2f(400,175), 20);
 
     chrono::system_clock::time_point mergeStart = chrono::system_clock::now();
     ms.mergesort(merge);
     chrono::system_clock::time_point mergeEnd = chrono::system_clock::now();
-    float mergeTime = chrono::duration_cast<chrono::milliseconds>(mergeEnd - mergeStart).count();
-    cout << mergeTime << endl;
-    addText("Time Taken:" + to_string(mergeTime), sf::Vector2f(400,325), 20);
+    int mergeTime = chrono::duration_cast<chrono::milliseconds>(mergeEnd - mergeStart).count();
+    addText("Time Taken: " + to_string(mergeTime) + " ms", sf::Vector2f(400,325), 20);
+
+    int difference;
+    string faster;
+    if (mergeTime > heapTime) { difference = mergeTime - heapTime; faster = "Heap Sort"; }
+    else { difference = heapTime - mergeTime; faster = "Merge Sort"; }
+
+    addText("Difference: " + to_string(difference) + " ms", sf::Vector2f(100,400), 20);
+    addText("Faster Algorithm: " + faster, sf::Vector2f(150,425), 20);
+
+
+    ofstream file;
+
+    file.open("../../output/out1.txt");
+    for (auto n : heap)
+    {
+        file << n << endl;
+    }
+    file.close();
+
+    file.open("../../output/out2.txt");
+    for (auto n : merge)
+    {
+        file << n << endl;
+    }
+    file.close();
 
 }

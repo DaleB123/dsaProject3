@@ -4,8 +4,8 @@
 #include <SFML/Graphics.hpp>
 #include <functional>
 #include <vector>
-#include "heapSort.h"
-#include "mergeSort.h"
+#include <chrono>
+#include <string>
 
 using namespace std;
 
@@ -16,6 +16,13 @@ class SFMLhelper
         sf::Texture texture;
         function<void(SFMLhelper*)> onClick;
         sf::Vector2f pos;
+
+        Button(sf::Texture texture, function<void(SFMLhelper*)> onClick, sf::Vector2f pos)
+        {
+            this->texture = texture;
+            this->onClick = onClick;
+            this->pos = pos;
+        }
     };
     sf::Font font;
     vector<vector<Button>> buttons = vector<vector<Button>>();
@@ -35,6 +42,8 @@ public:
     void setState(int state);
     void setSort(int sort);
     int getSort();
+
+    void compareAlgorithms();
 };
 
 #endif

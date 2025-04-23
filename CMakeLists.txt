@@ -1,9 +1,17 @@
 cmake_minimum_required(VERSION 3.29)
 project(Project_3)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(libraries/bridges/include)
+link_directories(libraries/bridges/lib)
+
+include_directories(libraries/curl/include)
+link_directories(libraries/curl/lib)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
+
 
 include(FetchContent)
 FetchContent_Declare(SFML
@@ -19,10 +27,10 @@ FetchContent_MakeAvailable(SFML)
 add_executable(Project_3 main.cpp
         SFMLhelper.h
         SFMLhelper.cpp
-        merge.cpp
+        mergeSort.cpp
         heapSort.h
         heapSort.cpp
         mergeSort.h
 )
 
-target_link_libraries(Project_3 sfml-graphics)
+target_link_libraries(Project_3 sfml-graphics libcurl.lib)

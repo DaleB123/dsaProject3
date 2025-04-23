@@ -1,0 +1,37 @@
+# ninja log v6
+3	144	7670600512409347	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-mkdir	72799b29dddf3039
+3	144	7670600512409347	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-mkdir	72799b29dddf3039
+3254	3423	7670600545192852	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	32a60d53a45e2064
+145	2630	7670600537279377	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-download	73e6810747c23390
+145	2630	7670600537279377	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-download	73e6810747c23390
+2630	2966	7670600537375140	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	db1db0499a0fca33
+3510	3713	7670600548090535	CMakeFiles/ogg-populate-complete	1e5e0c8c717151f5
+2630	2966	7670600537375140	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	db1db0499a0fca33
+2980	3099	7670600541975453	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	eb85da2d8b83b052
+2980	3099	7670600541975453	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	eb85da2d8b83b052
+3099	3176	7670600542755557	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	85fb1a8e9822771f
+3510	3713	7670600548090535	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/ogg-populate-complete	1e5e0c8c717151f5
+3099	3176	7670600542755557	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	85fb1a8e9822771f
+3176	3254	7670600543474829	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	8e4a631877b8fd70
+3176	3254	7670600543474829	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	8e4a631877b8fd70
+3254	3423	7670600545192852	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	32a60d53a45e2064
+3423	3509	7670600546087357	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	54a35ddb8df713c2
+3423	3509	7670600546087357	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	54a35ddb8df713c2
+3510	3713	7670600548090535	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	1e5e0c8c717151f5
+3510	3713	7670600548090535	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	1e5e0c8c717151f5
+11	146	7670604061471912	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	db1db0499a0fca33
+11	146	7670604061471912	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	db1db0499a0fca33
+146	219	7670604063482620	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	eb85da2d8b83b052
+146	219	7670604063482620	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	eb85da2d8b83b052
+219	281	7670604064107151	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	85fb1a8e9822771f
+219	281	7670604064107151	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	85fb1a8e9822771f
+282	343	7670604064729825	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	8e4a631877b8fd70
+282	343	7670604064729825	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	8e4a631877b8fd70
+343	412	7670604065417762	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	32a60d53a45e2064
+343	412	7670604065417762	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	32a60d53a45e2064
+412	459	7670604065900259	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	54a35ddb8df713c2
+412	459	7670604065900259	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	54a35ddb8df713c2
+459	527	7670604066580338	CMakeFiles/ogg-populate-complete	1e5e0c8c717151f5
+459	527	7670604066580338	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	1e5e0c8c717151f5
+459	527	7670604066580338	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/ogg-populate-complete	1e5e0c8c717151f5
+459	527	7670604066580338	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	1e5e0c8c717151f5

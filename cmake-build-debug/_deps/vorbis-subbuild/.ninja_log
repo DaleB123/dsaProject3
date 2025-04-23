@@ -1,0 +1,37 @@
+# ninja log v6
+5205	5285	7670600939866294	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	dcbe9b4151bf25a
+3	120	7670600888195249	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-mkdir	8ab25f57358c15e5
+3	120	7670600888195249	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-mkdir	8ab25f57358c15e5
+121	4614	7670600933148996	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-download	1668f5fc21ffb22f
+4865	5033	7670600937337407	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	86025965b50c9055
+121	4614	7670600933148996	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-download	1668f5fc21ffb22f
+4614	4865	7670600933245587	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	a7844aa2f58264a7
+4865	5033	7670600937337407	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	86025965b50c9055
+4614	4865	7670600933245587	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	a7844aa2f58264a7
+5034	5120	7670600938207913	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	f544077720766d16
+5034	5120	7670600938207913	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	f544077720766d16
+5120	5205	7670600939070130	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	323eb860bc283585
+5369	5480	7670600941819164	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	757c865d93bfcd2b
+5120	5205	7670600939070130	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	323eb860bc283585
+5205	5285	7670600939866294	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	dcbe9b4151bf25a
+5285	5369	7670600940714146	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	fc54f80a68611a17
+5285	5369	7670600940714146	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	fc54f80a68611a17
+5369	5480	7670600941819164	CMakeFiles/vorbis-populate-complete	757c865d93bfcd2b
+5369	5480	7670600941819164	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	757c865d93bfcd2b
+5369	5480	7670600941819164	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate-complete	757c865d93bfcd2b
+10	143	7670604079647093	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	a7844aa2f58264a7
+10	143	7670604079647093	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	a7844aa2f58264a7
+143	203	7670604081493388	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	86025965b50c9055
+143	203	7670604081493388	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	86025965b50c9055
+203	257	7670604082058113	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	f544077720766d16
+203	257	7670604082058113	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	f544077720766d16
+257	315	7670604082630055	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	323eb860bc283585
+257	315	7670604082630055	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	323eb860bc283585
+316	374	7670604083218377	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	dcbe9b4151bf25a
+316	374	7670604083218377	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	dcbe9b4151bf25a
+375	429	7670604083765282	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	fc54f80a68611a17
+375	429	7670604083765282	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	fc54f80a68611a17
+429	505	7670604084534413	CMakeFiles/vorbis-populate-complete	757c865d93bfcd2b
+429	505	7670604084534413	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	757c865d93bfcd2b
+429	505	7670604084534413	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate-complete	757c865d93bfcd2b
+429	505	7670604084534413	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	757c865d93bfcd2b

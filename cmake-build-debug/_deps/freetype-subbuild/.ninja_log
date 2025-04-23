@@ -1,0 +1,37 @@
+# ninja log v6
+15955	16117	7670600493977149	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-update	74d9dfe1d03e07a7
+16117	16207	7670600496441638	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-patch	148e21c4d2e52a33
+2	94	7670600335070900	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-mkdir	9cbc5eb18f62ab5a
+16117	16207	7670600496441638	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-patch	148e21c4d2e52a33
+2	94	7670600335070900	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-mkdir	9cbc5eb18f62ab5a
+95	15955	7670600493869681	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-download	298c88b6e3531347
+16268	16361	7670600497945437	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-build	caec1349e2123382
+16208	16268	7670600497055585	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-configure	b01c9aacee31c7fa
+95	15955	7670600493869681	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-download	298c88b6e3531347
+15955	16117	7670600493977149	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-update	74d9dfe1d03e07a7
+16208	16268	7670600497055585	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-configure	b01c9aacee31c7fa
+16268	16361	7670600497945437	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-build	caec1349e2123382
+16361	16437	7670600498710525	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-install	d0981da9d6deef61
+16361	16437	7670600498710525	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-install	d0981da9d6deef61
+16437	16552	7670600499861751	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-test	6ba5ddc970e78efd
+16437	16552	7670600499861751	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-test	6ba5ddc970e78efd
+16552	16667	7670600501003477	CMakeFiles/freetype-populate-complete	8e94c3d41f5296b
+16552	16667	7670600501003477	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-done	8e94c3d41f5296b
+16552	16667	7670600501003477	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/freetype-populate-complete	8e94c3d41f5296b
+16552	16667	7670600501003477	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-done	8e94c3d41f5296b
+16	166	7670604052080356	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-update	74d9dfe1d03e07a7
+16	166	7670604052080356	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-update	74d9dfe1d03e07a7
+167	226	7670604054113941	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-patch	148e21c4d2e52a33
+167	226	7670604054113941	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-patch	148e21c4d2e52a33
+226	284	7670604054691166	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-configure	b01c9aacee31c7fa
+226	284	7670604054691166	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-configure	b01c9aacee31c7fa
+284	333	7670604055196877	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-build	caec1349e2123382
+284	333	7670604055196877	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-build	caec1349e2123382
+333	384	7670604055692321	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-install	d0981da9d6deef61
+333	384	7670604055692321	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-install	d0981da9d6deef61
+384	439	7670604056251584	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-test	6ba5ddc970e78efd
+384	439	7670604056251584	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-test	6ba5ddc970e78efd
+439	518	7670604057034411	CMakeFiles/freetype-populate-complete	8e94c3d41f5296b
+439	518	7670604057034411	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-done	8e94c3d41f5296b
+439	518	7670604057034411	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/freetype-populate-complete	8e94c3d41f5296b
+439	518	7670604057034411	C:/Users/dayri/CLionProjects/Project 3/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-done	8e94c3d41f5296b
